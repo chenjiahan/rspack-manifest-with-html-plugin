@@ -1,0 +1,20 @@
+{
+  "name": "rspack-react-starter",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "rspack serve",
+    "build": "rspack build"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^5.5.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rspack-manifest-plugin": "5.0.0-alpha0"
+  },
+  "devDependencies": {
+    "@rspack/cli": "latest",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.8"
+  }
+}
